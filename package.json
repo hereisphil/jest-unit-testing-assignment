@@ -1,0 +1,15 @@
+{
+    "name": "1.4-unit-testing-assignment",
+    "version": "1.0.0",
+    "description": "Phillip Cantu's Assignment for Full Sail University's Web Application Integration - Online",
+    "license": "ISC",
+    "author": "Phillip Cantu",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "NODE_OPTIONS=--experimental-vm-modules jest --coverage"
+    },
+    "devDependencies": {
+        "jest": "^30.3.0"
+    }
+}
