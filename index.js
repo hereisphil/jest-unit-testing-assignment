@@ -12,7 +12,7 @@ export const obscureCreditCard = (string) => {
 
         // NEW CODE: Return a string literal, use .repeat() method
         // Originally I did: "x" * (string.length -4), but that returns NaN, I was thinking in Python
-        return `${"x".repeat(string.length - 4)}${string.slice(string.length - 4)}`;
+        return `${"x".repeat(string.length - 4)}${string.slice(-4)}`;
 
         /* OLD CODE: BRUTE FORCE METHOD VIA FOR-LOOP
         // Create an array to old the X's of obscurification
