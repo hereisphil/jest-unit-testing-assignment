@@ -10,6 +10,11 @@ export const obscureCreditCard = (string) => {
             return false;
         }
 
+        // NEW CODE: Return a string literal, use .repeat() method
+        // Originally I did: "x" * (string.length -4), but that returns NaN, I was thinking in Python
+        return `${"x".repeat(string.length - 4)}${string.slice(string.length - 4)}`;
+
+        /* OLD CODE: BRUTE FORCE METHOD VIA FOR-LOOP
         // Create an array to old the X's of obscurification
         const obscuredString = [];
         // Loop through the string and the required amount of Xs
@@ -23,6 +28,7 @@ export const obscureCreditCard = (string) => {
         obscuredString.push(finalFour);
         // Return the joined array
         return obscuredString.join("");
+        */
     } catch {
         console.log("Please enter a valid number between 12 and 16 digits.");
         return false;
