@@ -24,11 +24,3 @@ _prequisites: Node v20+ required_
 2. Run `cd` to change directory into the repo
 3. Run `npm install`
 4. Run `npm test`
-
-## 👋 Author
-
-Hi! I’m Phillip Cantu, a current [Full Sail University](https://www.fullsail.edu/) web development student, _expected graduation February 2027_, and a [4Geeks Academy Full Stack](https://www.phillipcantu.com/certificate.pdf) bootcamp graduate.
-
-- **GitHub:** [hereisphil](https://github.com/hereisphil)
-- **LinkedIn:** [phillipcantu](https://www.linkedin.com/in/phillipcantu/)
-- **Email:** [thereisphil@gmail.com](mailto:thereisphil@gmail.com)
